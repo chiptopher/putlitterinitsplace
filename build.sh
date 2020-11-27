@@ -11,11 +11,11 @@ popd
 rm -rf *.zip*
 
 function build_macos {
-    rm -rf *.app*
+    rm -rf *.app
     wget https://github.com/love2d/love/releases/download/11.3/love-11.3-macos.zip
     unzip love-11.3-macos.zip
-    cp love.app PutLitterInItsPlace.app
-    mv ./out/PutLitterInItsPlace.love PutLitterInItsPlace.app/Contents/Resources/
+        cp -r love.app ./PutLitterInItsPlace.app
+    cp ./out/PutLitterInItsPlace.love PutLitterInItsPlace.app/Contents/Resources/
     yes | cp ./static/Info.plist PutLitterInItsPlace.app/Contents/
 
     zip -r PutLitterInItsPlace_macos.zip PutLitterInItsPlace.app
