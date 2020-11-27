@@ -5,9 +5,7 @@
 One of the official names for this emoji 🚮 is "Put Litter in Its Place" and I thought that'd be a fun theme for a game so here we are.
 
 ## Download
-[Windows Download 64-bit]()
-
-[MacOS Download]()
+[Download on itch.io](https://chiptopher.itch.io/put-litter-in-its-place)
 
 ## Build
 
