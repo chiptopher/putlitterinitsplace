@@ -4,7 +4,7 @@ table = require('table')
 
 timeSinceLastSpawn = 0
 
-holing = nil
+holding = nil
 score = 0
 threshold = 1.15
 gameOver = false
